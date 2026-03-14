@@ -1,16 +1,34 @@
-# React + Vite
+# Paul English // The Chronological Mosaic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This isn't your standard portfolio site. It’s a high-fidelity, interactive map of a 30-year career—engineered to visualize the evolution of Paul English from 8-bit game dev to billion-dollar exits and global philanthropy.
 
-Currently, two official plugins are available:
+## 🛠 Technical Teardown
+I built this using a cutting-edge stack to ensure the UI feels fluid and the "Mosaic" remains performant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Core**: React 19.2 (Next-gen rendering)
+* **Engine**: Vite 6.0 (Lightning-fast HMR)
+* **Styling**: Tailwind CSS 4.0 (Custom skewed grid architecture)
+* **Icons**: Lucide React
+* **Deployment**: Automated via `gh-pages`
 
-## React Compiler
+## 🏗 The Architecture
+The app maps 30 distinct ventures into a "PE" (Paul English) grid structure. I categorized these into four key verticals:
+1. **Active Tech & Venture Studio**: The current grind at BVS.
+2. **Exits & Early Companies**: The heavy hitters like Kayak and Lola.
+3. **Philanthropy & Social Impact**: Real-world change via Winter Walk and Summits.
+4. **Media & Personal Brand**: The educational and public-facing side.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting it Running
+1. **Clone it**: `git clone https://github.com/dustymclean/PaulEnglish.git`
+2. **Install**: `npm install`
+3. **Dev**: `npm run dev`
+4. **Build**: `npm run build`
 
-## Expanding the ESLint configuration
+## 📦 Deployment
+The project is set up to deploy straight to GitHub Pages.
+```bash
+npm run deploy
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Created by Dusty McLean*
