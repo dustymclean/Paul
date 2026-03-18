@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/Paul/', // Updated from /Paul/ to match your repo name
+  base: '/paul/', // Updated from /paul/ to match your repo name
 })
